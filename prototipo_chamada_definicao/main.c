@@ -9,6 +9,6 @@ o main só precisa saber que a função existe*/
 //criamos um main para modificar o que vai aparecer pro usuario chamando a função que esta no arquivo .c
 int main() {
     int resultado = maior(3,5);
-    printf("O maior numero entre é %d\n", resultado);
+    printf("O maior numero entre 3 e 5 é %d\n", resultado);
     return 0;
 }
